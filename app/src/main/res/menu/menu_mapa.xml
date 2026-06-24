@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuVoltar"
+        android:title="Voltar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuGestao"
+        android:title="Gestão de Check-in"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuRelatorio"
+        android:title="Lugares mais visitados"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuTipoMapa"
+        android:title="Tipos de Mapa"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/menuMapaNormal"
+                android:title="MAPA NORMAL"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/menuMapaHibrido"
+                android:title="MAPA HÍBRIDO"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+</menu>
